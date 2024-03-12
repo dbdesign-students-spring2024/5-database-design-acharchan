@@ -33,7 +33,7 @@ course_id | course_name
 3 | python and pandas |
 4 | spreadsheet aggregate functions |  
   
-Primary key: course_id  
+Primary key: `course_id ` 
 
 **Table 2: `Professor`s**  
     
@@ -43,7 +43,7 @@ Primary key: course_id
  2 | Longston | e.longston@foo.edu
  3 | Nevarez | i.nevarez@foo.edu  
    
-Primary key: `professor`_id  
+Primary key: `professor_id  `
 
 **Table 3: Sections**  
   
@@ -54,8 +54,8 @@ section_id | course_id | `professor`_id | classroom
 3 | 3 | 2 | 60FA 314
 4 | 4 | 3 | WWH 201  
 
-Primary key: section_id  
-Foreign keys: course_id, `professor`_id  
+Primary key: `section_id ` 
+Foreign keys: `course_id`, `professor_id  `
 
 
 **Table 4: Assignments**  
@@ -67,8 +67,8 @@ assignment_id | section_id | assignment_topic | due_date | relevant reading |
 3 | 3 | python and pandas | 05.05.21 | dummlers chapter 14
 4 | 4 | spreadsheet aggregate functions | 04.07.21 | zehnder page 87 
   
-Primary key: assignment_id  
-Foreign key: section_id  
+Primary key: `assignment_id ` 
+Foreign key: `section_id  `
 
 **Table 5: Students**
      
@@ -80,7 +80,7 @@ student_id | student_name
 4 | alice
 5 | joe   
 
-Primary key: student_id  
+Primary key: `student_id`  
 
 **Table 6: Grades**
 
@@ -91,8 +91,8 @@ assignment_id | student_id | grade
 3 | 2 | 92
 4 | 2 | 65
 
-Primary key: assignment_id, student_id  
-Foreign keys: assignment_id, student_id  
+Primary key: `assignment_id`, `student_id ` 
+Foreign keys: `assignment_id`, `student_id  `
 
 **Table 7: Readings**
 
@@ -103,8 +103,8 @@ reading_id | assignment_id | reading
 3 | 3 | dummlers chapter 14
 4 | 4 | zehnder page 87  
 
-Primary key: reading_id  
-Foreign key: assignment_id  
+Primary key: `reading_id ` 
+Foreign key: `assignment_id  `
 
 ## ER Diagram  
 The diagram illustrates three entities: `assignment`, `submission`, and `professor`. The relationships between these entities have the following cardinalities:
