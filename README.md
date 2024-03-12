@@ -115,4 +115,4 @@ The diagram illustrates three entities: `assignment`, `submission`, and `profess
 
 In this ER diagram, the relationships between entities are accurately represented, ensuring a clear understanding of the database structure and interactions.
 
-![ER diagram](/images/database-design.drawio.svg)
+![ER diagram](/images/database-design.drawio.svg .drawio.svg)
